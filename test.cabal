@@ -15,6 +15,11 @@ build-type:          Simple
 -- extra-source-files:  
 cabal-version:       >=1.10
 
+Test-Suite test-foo
+  type: exit-stdio-1.0
+  main-is: test-foo.hs
+  build-depends: base
+
 executable test
   main-is:             Main.hs
   -- other-modules:       
